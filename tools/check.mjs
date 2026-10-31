@@ -164,6 +164,7 @@ if (exists('sitemap.xml')) {
   ok('sitemap names no other origin', [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].every((m) => m[1].startsWith(ORIGIN)));
   ok('sitemap leaves out the 404 page', !sm.includes('404.html'));
 }
+ok('home page carries the Search Console verification tag', read('index.html').includes('name="google-site-verification" content="3eEUicYrn6jQ879omto5AQuPLi1-5-p7dmGEGn7CC4Y"'));
 if (exists('robots.txt')) {
   const r = read('robots.txt');
   ok('robots.txt allows crawling and names the sitemap', /Allow: \//.test(r) && r.includes('Sitemap: ' + ORIGIN + 'sitemap.xml'));

@@ -141,7 +141,7 @@ function shell(p) {
 <title>${esc(p.title)}</title>
 <meta name="description" content="${esc(p.desc)}">
 <meta name="theme-color" content="#0a1b19">
-${p.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${url}">
+${p.file === 'index.html' ? '<meta name="google-site-verification" content="3eEUicYrn6jQ879omto5AQuPLi1-5-p7dmGEGn7CC4Y">\n' : ''}${p.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${url}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(site.name)}">
 <meta property="og:title" content="${esc(p.title)}">
