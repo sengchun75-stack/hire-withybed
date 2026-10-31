@@ -77,7 +77,7 @@ Depth is made of fades, not shadows: every bleeding photograph has a `mask-image
 - **Boat page** — drawn from `data/fleet.json` by `js/boat.js` (`boat.html?b=kingfisher`).
 - **Route explorer** — radio group of eight routes; each route's panel is baked into the page (miles, locks, nights, longest day, day table, stops, boats that fit its turning limit) and a one-line schematic is drawn in SVG.
 - **Price calculator** — boat, type of hire, start date (a list of valid Fridays or Mondays with their season), crew (capped at the boat's berths), extras. Output rows: hire, extras, total hire, booking deposit (25%), balance with its due date, refundable damage deposit, total including the damage deposit. Invalid input explains itself and offers the next valid date.
-- **Enquiry** — `mailto:` built with `encodeURIComponent` from an external-script submit handler, plus a copy-to-clipboard fallback and a `mailto:` form action for no-script visitors. No payment fields; nothing is sent by this site.
+- **Enquiry** — `mailto:` built with `encodeURIComponent` from an external-script submit handler, plus a copy-to-clipboard fallback and, for no-script visitors, a plain email link in a `<noscript>` note (a `mailto:` form action made Chrome warn about an insecure form on HTTPS). No payment fields; nothing is sent by this site.
 - **Gallery** — filter chips and a lightbox on a modal `<dialog>` (focus trap and Escape native; arrow keys; focus returns to the thumbnail).
 - **States** — `:focus-visible` brass ring on everything interactive; 44px minimum targets; `hidden` for filtered items; `aria-pressed` on chips; `aria-current` on the current menu link.
 

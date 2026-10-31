@@ -114,7 +114,7 @@
     <h2 id="enq-h">Send us the enquiry</h2>
     <p>This does not send anything from our server. It opens your own email program with the price above filled in, addressed to enquiries@hire-withybed.example. We answer within one working day.</p>
     <p class="enq__priv">What happens to what you type: it stays in your browser until you press the button, and then it goes into an email from your own mail program. This site stores nothing, sets no cookies and runs no analytics. We use your details to reply, and keep the email for the length of the booking and a year after.</p>
-    <form id="enquiry-form" data-enquiry action="mailto:enquiries@hire-withybed.example" method="post" enctype="text/plain" novalidate>
+    <form id="enquiry-form" data-enquiry novalidate>
       <div class="f"><label for="e-name">Your name</label><input id="e-name" name="name" type="text" autocomplete="name" required></div>
       <div class="f"><label for="e-email">Your email</label><input id="e-email" name="email" type="email" autocomplete="email" required></div>
       <div class="f"><label for="e-phone">Phone <em>optional</em></label><input id="e-phone" name="phone" type="tel" autocomplete="tel"></div>
@@ -139,6 +139,7 @@ Total including damage deposit: £2,151</textarea></div>
       <p class="enq__act"><button class="btn" type="submit">Open in my email program</button> <button class="btn btn--ghost" type="button" data-copy>Copy the summary</button></p>
       <p class="enq__status" role="status" aria-live="polite" data-status></p>
     </form>
+    <noscript><p class="enq__priv">Scripts are off, so the button cannot build the email for you. Write to <a href="mailto:enquiries@hire-withybed.example">enquiries@hire-withybed.example</a> and say which boat and dates you have in mind.</p></noscript>
   </div>
 </section>
 </main>

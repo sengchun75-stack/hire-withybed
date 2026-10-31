@@ -173,6 +173,7 @@ if (exists('_headers')) {
   const line = (h.match(/Content-Security-Policy: ([^\n]*)/) || [])[1] || '';
   ok('_headers: strict CSP with script-src and style-src self and frame-ancestors none', /script-src 'self'/.test(line) && /style-src 'self'/.test(line) && /frame-ancestors 'none'/.test(line));
   ok('_headers: no unsafe-inline or unsafe-eval anywhere', !/unsafe-/.test(h));
+  ok('_headers: removes the default wildcard Access-Control-Allow-Origin', h.includes('! Access-Control-Allow-Origin'));
   for (const hd of ['X-Content-Type-Options: nosniff', 'Referrer-Policy:', 'Permissions-Policy:', 'Strict-Transport-Security:']) ok('_headers: ' + hd, h.includes(hd));
   const metaCsp = (read('index.html').match(/Content-Security-Policy" content="([^"]*)"/) || [])[1] || '';
   ok('_headers CSP is the page CSP plus frame-ancestors', line.startsWith(metaCsp) && line.endsWith("frame-ancestors 'none'"));
