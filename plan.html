@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'self'; connect-src 'self'; form-action 'self' mailto:; base-uri 'none'; object-src 'none'">
+<title>Price a hire and enquire · Withybed Narrowboats</title>
+<meta name="description" content="Work out the price of a week, weekend or midweek hire, with extras and deposits, then send the enquiry by email.">
+<meta name="theme-color" content="#0a1b19">
+<link rel="canonical" href="https://hire-withybed.pages.dev/plan.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Withybed Narrowboats">
+<meta property="og:title" content="Price a hire and enquire · Withybed Narrowboats">
+<meta property="og:description" content="Work out the price of a week, weekend or midweek hire, with extras and deposits, then send the enquiry by email.">
+<meta property="og:url" content="https://hire-withybed.pages.dev/plan.html">
+<meta property="og:image" content="https://hire-withybed.pages.dev/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Looking out from under a brick canal bridge along a line of moored narrowboats">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Price a hire and enquire · Withybed Narrowboats">
+<meta name="twitter:description" content="Work out the price of a week, weekend or midweek hire, with extras and deposits, then send the enquiry by email.">
+<meta name="twitter:image" content="https://hire-withybed.pages.dev/img/og.jpg">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/cormorant-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/albert-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css?v=d3800751">
+<link rel="stylesheet" href="css/livery.css?v=a9878921">
+<script src="js/boot.js?v=0a31bbd3"></script>
+</head>
+<body class="page-plan">
+<a class="skip" href="#main">Skip to the content</a>
+<header class="bar">
+  <a class="bar__mark" href="index.html" aria-label="Withybed Narrowboats, home">WITHYBED</a>
+  <button class="bar__menu" type="button" aria-haspopup="dialog" aria-label="Open the menu" data-menu-open>
+    <span class="bar__bars" aria-hidden="true"><i></i><i></i></span>
+  </button>
+</header>
+<dialog class="menu" aria-label="Site menu" data-menu>
+  <div class="menu__in">
+    <button class="menu__close" type="button" aria-label="Close the menu" data-menu-close>
+      <span class="bar__bars bar__bars--x" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav aria-label="Main">
+      <ul class="menu__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="boats.html">Boats</a></li>
+        <li><a href="routes.html">Routes</a></li>
+        <li><a href="plan.html" aria-current="page">Plan and enquire</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <p class="menu__addr">Withybed Wharf, Canal Lane, Lower Heyford<br><a href="mailto:enquiries@hire-withybed.example">enquiries@hire-withybed.example</a><br><a href="tel:+441632960412">01632 960 412</a></p>
+  </div>
+</dialog>
+<main id="main">
+
+<section class="head grid" data-ghost="Plan">
+  <figure class="head__photo"><img src="img/dusk-moorings-1280.webp" srcset="img/dusk-moorings-640.webp 640w, img/dusk-moorings-960.webp 960w, img/dusk-moorings-1280.webp 1280w, img/dusk-moorings-1920.webp 1920w" sizes="(min-width: 900px) 42vw, 100vw" width="1280" height="853" alt="Narrowboats moored in the evening under willows, windows glowing" fetchpriority="high" decoding="async"></figure>
+  <div class="head__text">
+    <h1>Price a week, <span class="h1-heavy">then ask us</span></h1>
+    <p>Choose a boat, a type of hire and a start date. The price is worked out here in your browser, from the same table printed on the boats page.</p>
+  </div>
+  <span class="vlabel vlabel--l" aria-hidden="true">Prices include VAT</span>
+</section>
+
+<section class="sec calc" id="calculator" data-ghost="Price" aria-labelledby="calc-h">
+  <h2 id="calc-h" class="sr-only">Price calculator</h2>
+  <div class="calc__grid">
+    <form class="calc__form" id="calc" data-calc novalidate aria-label="Price calculator">
+      <div class="f">
+        <label for="c-boat">Boat</label>
+        <select id="c-boat" name="boat"><option value="dabchick" data-berths="2" data-dog="1">Dabchick · 2 berths · 45 ft</option><option value="kingfisher" data-berths="4" data-dog="1" selected>Kingfisher · 4 berths · 52 ft</option><option value="moorhen" data-berths="4" data-dog="0">Moorhen · 4 berths · 57 ft</option><option value="reed-warbler" data-berths="6" data-dog="1">Reed Warbler · 6 berths · 60 ft</option><option value="grey-heron" data-berths="8" data-dog="0">Grey Heron · 8 berths · 68 ft</option><option value="mute-swan" data-berths="10" data-dog="0">Mute Swan · 10 berths · 70 ft</option></select>
+      </div>
+      <fieldset class="f f--type"><legend>Type of hire</legend>
+        <label class="pill pill--wide"><input type="radio" name="type" value="week" checked><span>Week<small>Friday to Friday, seven nights</small></span></label><label class="pill pill--wide"><input type="radio" name="type" value="weekend"><span>Weekend break<small>Friday to Monday, three nights</small></span></label><label class="pill pill--wide"><input type="radio" name="type" value="midweek"><span>Midweek break<small>Monday to Friday, four nights</small></span></label>
+      </fieldset>
+      <div class="f">
+        <label for="c-start">Start date</label>
+        <select id="c-start" name="start" aria-describedby="c-start-hint"><option value="2027-03-05">Fri 5 Mar 2027 · low season</option><option value="2027-03-12">Fri 12 Mar 2027 · low season</option><option value="2027-03-19">Fri 19 Mar 2027 · low season</option><option value="2027-03-26">Fri 26 Mar 2027 · low season</option><option value="2027-04-02">Fri 2 Apr 2027 · low season</option><option value="2027-04-09">Fri 9 Apr 2027 · low season</option><option value="2027-04-16">Fri 16 Apr 2027 · low season</option><option value="2027-04-23">Fri 23 Apr 2027 · low season</option><option value="2027-04-30">Fri 30 Apr 2027 · low season</option><option value="2027-05-07">Fri 7 May 2027 · low season</option><option value="2027-05-14">Fri 14 May 2027 · low season</option><option value="2027-05-21">Fri 21 May 2027 · low season</option><option value="2027-05-28">Fri 28 May 2027 · low season</option><option value="2027-06-04">Fri 4 Jun 2027 · high season</option><option value="2027-06-11">Fri 11 Jun 2027 · high season</option><option value="2027-06-18">Fri 18 Jun 2027 · high season</option><option value="2027-06-25">Fri 25 Jun 2027 · high season</option><option value="2027-07-02">Fri 2 Jul 2027 · high season</option><option value="2027-07-09" selected>Fri 9 Jul 2027 · high season</option><option value="2027-07-16">Fri 16 Jul 2027 · high season</option><option value="2027-07-23">Fri 23 Jul 2027 · high season</option><option value="2027-07-30">Fri 30 Jul 2027 · high season</option><option value="2027-08-06">Fri 6 Aug 2027 · high season</option><option value="2027-08-13">Fri 13 Aug 2027 · high season</option><option value="2027-08-20">Fri 20 Aug 2027 · high season</option><option value="2027-08-27">Fri 27 Aug 2027 · high season</option><option value="2027-09-03">Fri 3 Sep 2027 · low season</option><option value="2027-09-10">Fri 10 Sep 2027 · low season</option><option value="2027-09-17">Fri 17 Sep 2027 · low season</option><option value="2027-09-24">Fri 24 Sep 2027 · low season</option><option value="2027-10-01">Fri 1 Oct 2027 · low season</option><option value="2027-10-08">Fri 8 Oct 2027 · low season</option><option value="2027-10-15">Fri 15 Oct 2027 · low season</option><option value="2027-10-22">Fri 22 Oct 2027 · low season</option><option value="2027-10-29">Fri 29 Oct 2027 · low season</option><option value="2027-11-05">Fri 5 Nov 2027 · low season</option><option value="2027-11-12">Fri 12 Nov 2027 · low season</option><option value="2027-11-19">Fri 19 Nov 2027 · low season</option></select>
+        <p class="hint" id="c-start-hint" data-start-hint>Weeks start on a Friday at 14:00.</p>
+      </div>
+      <div class="f f--crew">
+        <label for="c-crew">Crew</label>
+        <input id="c-crew" name="crew" type="number" inputmode="numeric" min="1" max="4" step="1" value="4" aria-describedby="c-crew-hint">
+        <p class="hint" id="c-crew-hint" data-crew-hint>Kingfisher sleeps 4.</p>
+      </div>
+      <fieldset class="f f--extras"><legend>Extras</legend>
+        <label class="chk"><input type="checkbox" name="linen" checked><span>Bed linen and towels <em>£14 per person</em></span></label>
+        <label class="chk"><input type="checkbox" name="hamper"><span>Arrival hamper <em>£38, one per boat</em></span></label>
+        <div class="f f--inline"><label for="c-dogs">Dogs <em>£40 per dog, two at most</em></label>
+          <select id="c-dogs" name="dogs" ><option value="0" selected>None</option><option value="1">1</option><option value="2">2</option></select></div>
+        <div class="f f--inline"><label for="c-bikes">Bicycles <em>£35 a week, £22 midweek, £18 weekend</em></label>
+          <input id="c-bikes" name="bikes" type="number" inputmode="numeric" min="0" max="4" step="1" value="0"></div>
+      </fieldset>
+    </form>
+
+    <aside class="calc__out" aria-labelledby="out-h">
+      <h3 id="out-h">Your price</h3>
+      <p class="sr-only" role="status" aria-live="polite" data-out-live>Kingfisher, week from Fri 9 Jul 2027, high season, crew of 4. Total hire £1,851, of which £463 is the booking deposit. Including the refundable damage deposit of £300, the total is £2,151.</p>
+      <ul class="errs" data-errs hidden></ul>
+      <table class="qtable" data-out><caption class="sr-only">Price breakdown</caption><tbody><tr class="q-hire"><th scope="row">Kingfisher, week, high season</th><td>£1,795</td></tr><tr class="q-extra"><th scope="row">Bed linen and towels × 4</th><td>£56</td></tr><tr class="q-total"><th scope="row">Total hire</th><td>£1,851</td></tr><tr class="q-part"><th scope="row">Booking deposit, 25% to hold the dates</th><td>£463</td></tr><tr class="q-part"><th scope="row">Balance, due Fri 14 May 2027</th><td>£1,388</td></tr><tr class="q-part"><th scope="row">Damage deposit, refunded after the check-in</th><td>£300</td></tr><tr class="q-grand"><th scope="row">Total including the damage deposit</th><td>£2,151</td></tr></tbody></table>
+      <p class="calc__small">The damage deposit is held against the boat and returned after the check-in. Nothing is charged on this site: a booking is made by email, and we send the payment link.</p>
+      <p><a class="btn" href="#enquiry" data-to-enquiry>Send this as an enquiry</a></p>
+    </aside>
+  </div>
+</section>
+
+<section class="sec enq grid" id="enquiry" data-ghost="Ask" aria-labelledby="enq-h">
+  <div class="enq__photo rv"><figure><img src="img/wildflower-field-1280.webp" srcset="img/wildflower-field-640.webp 640w, img/wildflower-field-960.webp 960w, img/wildflower-field-1280.webp 1280w, img/wildflower-field-1920.webp 1920w" sizes="(min-width: 900px) 40vw, 100vw" width="1280" height="718" alt="A field of yellow wildflowers under a clear sky" loading="lazy" decoding="async"></figure></div>
+  <div class="enq__form rv">
+    <h2 id="enq-h">Send us the enquiry</h2>
+    <p>This does not send anything from our server. It opens your own email program with the price above filled in, addressed to enquiries@hire-withybed.example. We answer within one working day.</p>
+    <p class="enq__priv">What happens to what you type: it stays in your browser until you press the button, and then it goes into an email from your own mail program. This site stores nothing, sets no cookies and runs no analytics. We use your details to reply, and keep the email for the length of the booking and a year after.</p>
+    <form id="enquiry-form" data-enquiry action="mailto:enquiries@hire-withybed.example" method="post" enctype="text/plain" novalidate>
+      <div class="f"><label for="e-name">Your name</label><input id="e-name" name="name" type="text" autocomplete="name" required></div>
+      <div class="f"><label for="e-email">Your email</label><input id="e-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="f"><label for="e-phone">Phone <em>optional</em></label><input id="e-phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div class="f"><label for="e-route">A route in mind <em>optional</em></label>
+        <select id="e-route" name="route"><option value="">No route yet</option><option value="Somerton and King's Sutton" data-id="somerton-and-kings-sutton">Somerton and King's Sutton · weekend break</option><option value="Thrupp for the weekend" data-id="thrupp-for-the-weekend">Thrupp for the weekend · weekend break</option><option value="The Banbury turn" data-id="banbury-turn">The Banbury turn · midweek break</option><option value="Four Rivers" data-id="four-rivers">Four Rivers · midweek break</option><option value="Oxford and back" data-id="oxford-and-back">Oxford and back · week</option><option value="The upper Thames to Eynsham" data-id="upper-thames-to-eynsham">The upper Thames to Eynsham · week</option><option value="Cropredy and the Claydon flight" data-id="cropredy-and-claydon">Cropredy and the Claydon flight · week</option><option value="Napton: the long way up" data-id="napton-the-long-way-up">Napton: the long way up · week</option></select></div>
+      <div class="f"><label for="e-msg">Anything else <em>optional</em></label><textarea id="e-msg" name="message" rows="4"></textarea></div>
+      <div class="f"><label for="e-sum">What we will receive</label><textarea id="e-sum" name="summary" rows="14" readonly data-summary>Enquiry for Withybed Narrowboats
+
+Boat: Kingfisher (4 berths, 52 ft)
+Hire: Week, 7 nights
+Dates: Fri 9 Jul 2027 (from 14:00) to Fri 16 Jul 2027 (back by 09:30)
+Season: High season
+Crew: 4
+
+Hire: £1,795
+Bed linen and towels x 4: £56
+Total hire: £1,851
+Booking deposit (25%): £463
+Balance, due Fri 14 May 2027: £1,388
+Refundable damage deposit, taken at handover: £300
+Total including damage deposit: £2,151</textarea></div>
+      <p class="enq__act"><button class="btn" type="submit">Open in my email program</button> <button class="btn btn--ghost" type="button" data-copy>Copy the summary</button></p>
+      <p class="enq__status" role="status" aria-live="polite" data-status></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="foot__grid">
+    <div class="foot__brand">
+      <p class="foot__mark">WITHYBED</p>
+      <p>Narrowboat holidays on the Oxford Canal. Withybed Wharf, Canal Lane, Lower Heyford, Oxfordshire, OX25 5ZZ.</p>
+    </div>
+    <nav aria-label="Footer" class="foot__nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="boats.html">Boats</a></li>
+        <li><a href="routes.html">Routes</a></li>
+        <li><a href="plan.html">Plan and enquire</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="foot__contact">
+      <p><a href="mailto:enquiries@hire-withybed.example">enquiries@hire-withybed.example</a><br><a href="tel:+441632960412">01632 960 412</a></p>
+      <p>Monday to Saturday, 09:00 – 17:00<br>Sunday, 10:00 – 14:00<br><span class="dim">April to October</span></p>
+    </div>
+  </div>
+  <p class="foot__legal">© 2026 Withybed Narrowboats. Prices are in pounds sterling and include VAT. Every hire starts at 14:00 and ends by 09:30.</p>
+</footer>
+<script src="js/vendor/lenis-1.3.27.min.js?v=c11d334b" defer></script>
+<script src="js/calc-core.js?v=23525b10" defer></script>
+<script src="js/common.js?v=b4cc2f8d" defer></script>
+<script src="js/plan.js?v=8b0b880d" defer></script>
+</body>
+</html>

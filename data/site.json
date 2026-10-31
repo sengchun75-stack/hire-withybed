@@ -1,0 +1,113 @@
+{
+ "name": "Withybed Narrowboats",
+ "short": "Withybed",
+ "slug": "hire-withybed",
+ "base": "Withybed Wharf, Lower Heyford",
+ "address": [
+  "Withybed Wharf",
+  "Canal Lane",
+  "Lower Heyford",
+  "Oxfordshire",
+  "OX25 5ZZ"
+ ],
+ "phone": "01632 960 412",
+ "phoneHref": "+441632960412",
+ "email": "enquiries@hire-withybed.example",
+ "hours": [
+  {
+   "label": "April to October",
+   "days": "Monday to Saturday",
+   "open": "09:00 – 17:00"
+  },
+  {
+   "label": "April to October",
+   "days": "Sunday",
+   "open": "10:00 – 14:00"
+  },
+  {
+   "label": "November to March",
+   "days": "Tuesday to Saturday",
+   "open": "10:00 – 16:00"
+  }
+ ],
+ "locksToOxford": 11,
+ "milesToOxford": 13.5,
+ "durations": {
+  "week": {
+   "label": "Week",
+   "nights": 7,
+   "startDay": 5,
+   "startName": "Friday",
+   "blurb": "Friday to Friday, seven nights"
+  },
+  "weekend": {
+   "label": "Weekend break",
+   "nights": 3,
+   "startDay": 5,
+   "startName": "Friday",
+   "blurb": "Friday to Monday, three nights"
+  },
+  "midweek": {
+   "label": "Midweek break",
+   "nights": 4,
+   "startDay": 1,
+   "startName": "Monday",
+   "blurb": "Monday to Friday, four nights"
+  }
+ },
+ "handover": "14:00",
+ "returnBy": "09:30",
+ "seasons": {
+  "highFrom": "2027-06-04",
+  "highTo": "2027-09-02"
+ },
+ "bookable": {
+  "first": "2027-03-05",
+  "last": "2027-11-19"
+ },
+ "extras": {
+  "linen": {
+   "label": "Bed linen and towels",
+   "unit": "per person",
+   "price": 14
+  },
+  "dog": {
+   "label": "Dog",
+   "unit": "per dog, two at most",
+   "price": 40,
+   "max": 2
+  },
+  "hamper": {
+   "label": "Arrival hamper",
+   "unit": "one per boat",
+   "price": 38
+  },
+  "bike": {
+   "label": "Bicycle hire",
+   "unit": "per bike",
+   "price": {
+    "week": 35,
+    "weekend": 18,
+    "midweek": 22
+   },
+   "max": 4
+  }
+ },
+ "bookingDepositPct": 25,
+ "balanceDueWeeks": {
+  "week": 8,
+  "weekend": 4,
+  "midweek": 4
+ },
+ "defaultQuote": {
+  "boat": "kingfisher",
+  "type": "week",
+  "start": "2027-07-09",
+  "crew": 4,
+  "linen": true,
+  "dogs": 0,
+  "hamper": false,
+  "bikes": 0
+ },
+ "defaultRoute": "oxford-and-back"
+}

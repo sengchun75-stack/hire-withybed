@@ -1,0 +1,324 @@
+[
+ {
+  "id": "dabchick",
+  "name": "Dabchick",
+  "berths": 2,
+  "lengthFt": 45,
+  "cabins": "1 double",
+  "bathrooms": "Shower and toilet",
+  "dogFriendly": true,
+  "deposit": 250,
+  "price": {
+   "week": {
+    "low": 895,
+    "high": 1395
+   },
+   "weekend": {
+    "low": 395,
+    "high": 585
+   },
+   "midweek": {
+    "low": 455,
+    "high": 685
+   }
+  },
+  "livery": [
+   "#2f5a3c",
+   "#e3d9bd",
+   "#b9893a"
+  ],
+  "image": "bridge-and-bicycle",
+  "alt": "A green narrowboat with a bicycle and pots of herbs on its roof, moored below a brick bridge",
+  "blurb": "The smallest of the six, and the one a single person can work through a lock without shouting for help. Two people, a double bed that stays made up, and room on the roof for the bikes.",
+  "features": [
+   "Fixed double bed",
+   "Solid-fuel stove and diesel heating",
+   "Full-size fridge, gas hob and oven",
+   "Pump-out toilet, hot shower",
+   "Roof rack for two bicycles"
+  ],
+  "fromWeekLow": 895,
+  "suitedRoutes": [
+   "somerton-and-kings-sutton",
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/bridge-and-bicycle-640.webp 640w, img/bridge-and-bicycle-960.webp 960w, img/bridge-and-bicycle-1280.webp 1280w, img/bridge-and-bicycle-1920.webp 1920w",
+  "src": "img/bridge-and-bicycle-1280.webp",
+  "w": 1280,
+  "h": 685
+ },
+ {
+  "id": "kingfisher",
+  "name": "Kingfisher",
+  "berths": 4,
+  "lengthFt": 52,
+  "cabins": "1 double, 1 twin",
+  "bathrooms": "Shower and toilet",
+  "dogFriendly": true,
+  "deposit": 300,
+  "price": {
+   "week": {
+    "low": 1195,
+    "high": 1795
+   },
+   "weekend": {
+    "low": 515,
+    "high": 745
+   },
+   "midweek": {
+    "low": 595,
+    "high": 865
+   }
+  },
+  "livery": [
+   "#1f4f8a",
+   "#c9732c",
+   "#e3d9bd"
+  ],
+  "image": "blue-boat-riverside",
+  "alt": "The roof of a blue narrowboat seen from above, cruising a wide stretch of river",
+  "blurb": "Four berths in 52 feet, which is the length most first-timers should hire. Short enough to turn in any winding hole on the Oxford, long enough that the twin cabin is not a cupboard.",
+  "features": [
+   "Double cabin and a twin cabin with a door",
+   "Solid-fuel stove and diesel heating",
+   "Dinette that converts to a bed if you are five",
+   "Shower and toilet, separate from the galley",
+   "Dogs welcome"
+  ],
+  "fromWeekLow": 1195,
+  "suitedRoutes": [
+   "somerton-and-kings-sutton",
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/blue-boat-riverside-480.webp 480w, img/blue-boat-riverside-960.webp 960w, img/blue-boat-riverside-1440.webp 1440w",
+  "src": "img/blue-boat-riverside-960.webp",
+  "w": 960,
+  "h": 1275
+ },
+ {
+  "id": "moorhen",
+  "name": "Moorhen",
+  "berths": 4,
+  "lengthFt": 57,
+  "cabins": "2 doubles",
+  "bathrooms": "Shower and toilet",
+  "dogFriendly": false,
+  "deposit": 300,
+  "price": {
+   "week": {
+    "low": 1295,
+    "high": 1945
+   },
+   "weekend": {
+    "low": 555,
+    "high": 805
+   },
+   "midweek": {
+    "low": 645,
+    "high": 935
+   }
+  },
+  "livery": [
+   "#14211f",
+   "#8f2f26",
+   "#b9893a"
+  ],
+  "image": "moored-in-trees",
+  "alt": "Two dark-hulled narrowboats moored in dappled shade under trees",
+  "blurb": "Two proper double cabins, one at each end, so two couples can both shut a door. The extra five feet over Kingfisher goes into a galley with real worktop. No dogs aboard: the cabin floors are bare wood.",
+  "features": [
+   "Two double cabins, one at each end",
+   "Solid-fuel stove and diesel heating",
+   "Long galley with oven and four-ring hob",
+   "Walk-through bathroom with a full shower",
+   "Bare timber floors, so no dogs"
+  ],
+  "fromWeekLow": 1295,
+  "suitedRoutes": [
+   "somerton-and-kings-sutton",
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/moored-in-trees-480.webp 480w, img/moored-in-trees-960.webp 960w, img/moored-in-trees-1440.webp 1440w",
+  "src": "img/moored-in-trees-960.webp",
+  "w": 960,
+  "h": 1200
+ },
+ {
+  "id": "reed-warbler",
+  "name": "Reed Warbler",
+  "berths": 6,
+  "lengthFt": 60,
+  "cabins": "1 double, 2 twins",
+  "bathrooms": "Shower and toilet, plus a second toilet",
+  "dogFriendly": true,
+  "deposit": 400,
+  "price": {
+   "week": {
+    "low": 1595,
+    "high": 2395
+   },
+   "weekend": {
+    "low": 685,
+    "high": 995
+   },
+   "midweek": {
+    "low": 795,
+    "high": 1145
+   }
+  },
+  "livery": [
+   "#3c5b34",
+   "#7a2c2c",
+   "#e3d9bd"
+  ],
+  "image": "lift-bridge",
+  "alt": "A green-and-cream narrowboat passing through a raised lift bridge, the steerer smiling at the tiller",
+  "blurb": "Sixty feet is the longest hull that fits every winding hole on the northern routes, so Reed Warbler is our family boat: six berths, a second toilet, and a cratch at the front for wet coats.",
+  "features": [
+   "Double cabin and two twin cabins",
+   "Second toilet, so nobody queues",
+   "Solid-fuel stove and diesel heating",
+   "Covered cratch for coats and boots",
+   "Dogs welcome"
+  ],
+  "fromWeekLow": 1595,
+  "suitedRoutes": [
+   "somerton-and-kings-sutton",
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/lift-bridge-480.webp 480w, img/lift-bridge-960.webp 960w, img/lift-bridge-1440.webp 1440w",
+  "src": "img/lift-bridge-960.webp",
+  "w": 960,
+  "h": 1440
+ },
+ {
+  "id": "grey-heron",
+  "name": "Grey Heron",
+  "berths": 8,
+  "lengthFt": 68,
+  "cabins": "2 doubles, 2 twins",
+  "bathrooms": "Two shower rooms",
+  "dogFriendly": false,
+  "deposit": 500,
+  "price": {
+   "week": {
+    "low": 1995,
+    "high": 2895
+   },
+   "weekend": {
+    "low": 850,
+    "high": 1210
+   },
+   "midweek": {
+    "low": 985,
+    "high": 1395
+   }
+  },
+  "livery": [
+   "#5d7280",
+   "#e3d9bd",
+   "#b9893a"
+  ],
+  "image": "calm-canal-cruising",
+  "alt": "A red-and-green narrowboat cruising away down a rippling canal, the steerer at the back",
+  "blurb": "Sixty-eight feet, eight people, two shower rooms. She is too long to turn above Twyford Wharf, so she goes south to Oxford and north to Banbury and never further without a conversation with us first.",
+  "features": [
+   "Two double cabins and two twin cabins",
+   "Two shower rooms",
+   "Solid-fuel stove and diesel heating",
+   "Saloon with a table that seats eight",
+   "Too long for the northern winding holes"
+  ],
+  "fromWeekLow": 1995,
+  "suitedRoutes": [
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/calm-canal-cruising-640.webp 640w, img/calm-canal-cruising-960.webp 960w, img/calm-canal-cruising-1280.webp 1280w, img/calm-canal-cruising-1920.webp 1920w",
+  "src": "img/calm-canal-cruising-1280.webp",
+  "w": 1280,
+  "h": 960
+ },
+ {
+  "id": "mute-swan",
+  "name": "Mute Swan",
+  "berths": 10,
+  "lengthFt": 70,
+  "cabins": "3 doubles, 2 twins",
+  "bathrooms": "Two shower rooms, three toilets",
+  "dogFriendly": false,
+  "deposit": 600,
+  "price": {
+   "week": {
+    "low": 2395,
+    "high": 3395
+   },
+   "weekend": {
+    "low": 1020,
+    "high": 1430
+   },
+   "midweek": {
+    "low": 1195,
+    "high": 1640
+   }
+  },
+  "livery": [
+   "#d9d4c4",
+   "#1c2e4a",
+   "#b9893a"
+  ],
+  "image": "summer-brick-wharf",
+  "alt": "A black narrowboat with a red-and-white striped bow, moored by a brick wharf cottage",
+  "blurb": "The longest boat the Oxford Canal locks will take: seventy feet, ten berths, and a steerer who has done the handover with us twice. We will not hand her to a crew without an experienced helm.",
+  "features": [
+   "Three double cabins and two twin cabins",
+   "Two shower rooms, three toilets",
+   "Solid-fuel stove and diesel heating",
+   "Seventy feet: the limit of the Oxford locks",
+   "Handover is two hours, not one"
+  ],
+  "fromWeekLow": 2395,
+  "suitedRoutes": [
+   "thrupp-for-the-weekend",
+   "banbury-turn",
+   "four-rivers",
+   "oxford-and-back",
+   "upper-thames-to-eynsham",
+   "cropredy-and-claydon",
+   "napton-the-long-way-up"
+  ],
+  "srcset": "img/summer-brick-wharf-480.webp 480w, img/summer-brick-wharf-960.webp 960w, img/summer-brick-wharf-1440.webp 1440w",
+  "src": "img/summer-brick-wharf-960.webp",
+  "w": 960,
+  "h": 1280
+ }
+]

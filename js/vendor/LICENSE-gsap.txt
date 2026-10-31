@@ -1,0 +1,9 @@
+GSAP 3.15.0 (gsap.min.js)
+Copyright 2026, GreenSock. All rights reserved.
+Subject to the terms of the GreenSock Standard "no charge" License:
+https://gsap.com/standard-license
+
+The licence header is preserved at the top of gsap-3.15.0.min.js as shipped by the
+`gsap` npm package. The npm package does not include a separate licence file; this
+notice records the licence the file is used under. This is a free-of-charge licence
+that permits use on commercial websites; it is not an open-source (MIT) licence.

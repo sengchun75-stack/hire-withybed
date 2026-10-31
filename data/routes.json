@@ -1,0 +1,908 @@
+[
+ {
+  "id": "somerton-and-kings-sutton",
+  "name": "Somerton and King's Sutton",
+  "type": "weekend",
+  "nights": 3,
+  "miles": 21,
+  "locks": 11,
+  "longest": 4.13,
+  "maxLengthFt": 60,
+  "maxLengthWhy": "turns at Twyford Wharf, which takes boats up to 60 ft",
+  "summary": "North through Somerton Deep Lock, the deepest on the Oxford, to a winding hole at Twyford Wharf and back.",
+  "best": "A first weekend. Lots of lock practice, never more than five hours in a day.",
+  "photo": "wisteria-pub",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Somerton",
+    "miles": 2,
+    "locks": 2,
+    "hours": 1.07,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Somerton",
+    "to": "King's Sutton",
+    "miles": 10,
+    "locks": 4,
+    "hours": 4.13,
+    "note": "Turn at Twyford Wharf"
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "King's Sutton",
+    "to": "Somerton",
+    "miles": 7,
+    "locks": 3,
+    "hours": 2.93,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Somerton",
+    "to": "Withybed Wharf",
+    "miles": 2,
+    "locks": 2,
+    "hours": 1.07,
+    "note": "Back by 09:30"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Somerton Deep Lock",
+    "at": 2,
+    "kind": "lock",
+    "note": "About 12 ft: the deepest lock on the canal"
+   },
+   {
+    "name": "Aynho Weir Lock",
+    "at": 4.5,
+    "kind": "lock"
+   },
+   {
+    "name": "King's Sutton",
+    "at": 9,
+    "kind": "village"
+   },
+   {
+    "name": "Twyford Wharf",
+    "at": 10.5,
+    "kind": "winding",
+    "note": "Winding hole, 60 ft maximum"
+   }
+  ]
+ },
+ {
+  "id": "thrupp-for-the-weekend",
+  "name": "Thrupp for the weekend",
+  "type": "weekend",
+  "nights": 3,
+  "miles": 17,
+  "locks": 14,
+  "longest": 3,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "a straight run south with no tight turn",
+  "summary": "South along the Cherwell valley to Thrupp, where the moorings back onto gardens, and home again without ever seeing a city.",
+  "best": "Two couples who want to tie up early and walk to a pub.",
+  "photo": "canalside-pub",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Northbrook",
+    "miles": 2.5,
+    "locks": 2,
+    "hours": 1.23,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Northbrook",
+    "to": "Thrupp",
+    "miles": 6,
+    "locks": 5,
+    "hours": 3,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "Thrupp",
+    "to": "Northbrook",
+    "miles": 6,
+    "locks": 5,
+    "hours": 3,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Northbrook",
+    "to": "Withybed Wharf",
+    "miles": 2.5,
+    "locks": 2,
+    "hours": 1.23,
+    "note": "Back by 09:30"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Northbrook",
+    "at": 2.5,
+    "kind": "village"
+   },
+   {
+    "name": "Enslow",
+    "at": 5,
+    "kind": "village"
+   },
+   {
+    "name": "Thrupp",
+    "at": 8.5,
+    "kind": "village"
+   }
+  ]
+ },
+ {
+  "id": "banbury-turn",
+  "name": "The Banbury turn",
+  "type": "midweek",
+  "nights": 4,
+  "miles": 28,
+  "locks": 14,
+  "longest": 3.97,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "turns above Banbury lock, wide enough for 70 ft",
+  "summary": "Fourteen miles and seven locks north to Banbury, a night in the town, and the same water back by a different set of mooring spots.",
+  "best": "Four nights, five days. The best first midweek if you want a town at the far end.",
+  "photo": "bridge-and-boat",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Mon",
+    "from": "Withybed Wharf",
+    "to": "Aynho",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Tue",
+    "from": "Aynho",
+    "to": "Banbury",
+    "miles": 9.5,
+    "locks": 4,
+    "hours": 3.97,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "dow": "Wed",
+    "from": "Banbury",
+    "to": "King's Sutton",
+    "miles": 5,
+    "locks": 2,
+    "hours": 2.07,
+    "note": "Turn above Banbury lock"
+   },
+   {
+    "n": 4,
+    "dow": "Thu",
+    "from": "King's Sutton",
+    "to": "Somerton",
+    "miles": 7,
+    "locks": 3,
+    "hours": 2.93,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "dow": "Fri",
+    "from": "Somerton",
+    "to": "Withybed Wharf",
+    "miles": 2,
+    "locks": 2,
+    "hours": 1.07,
+    "note": "Back by 09:30"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Somerton Deep Lock",
+    "at": 2,
+    "kind": "lock"
+   },
+   {
+    "name": "Aynho",
+    "at": 4.5,
+    "kind": "village"
+   },
+   {
+    "name": "King's Sutton",
+    "at": 9,
+    "kind": "village"
+   },
+   {
+    "name": "Banbury",
+    "at": 14,
+    "kind": "town",
+    "note": "Visitor moorings in the town centre"
+   }
+  ]
+ },
+ {
+  "id": "four-rivers",
+  "name": "Four Rivers",
+  "type": "midweek",
+  "nights": 4,
+  "miles": 30.5,
+  "locks": 23,
+  "longest": 4.6,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "Isis Lock and the Thames locks take 70 ft",
+  "summary": "Down the canal, out through Duke's Cut onto the Thames, round Oxford by the Sheepwash Channel and back up through Isis Lock.",
+  "best": "Oxford from the water, without the weekend queue at the bottom of the canal.",
+  "photo": "meadow-and-river",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Mon",
+    "from": "Withybed Wharf",
+    "to": "Kidlington",
+    "miles": 9,
+    "locks": 8,
+    "hours": 4.6,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Tue",
+    "from": "Kidlington",
+    "to": "Oxford",
+    "miles": 8,
+    "locks": 4,
+    "hours": 3.47,
+    "note": "Duke's Cut, the Thames, the Sheepwash Channel, Isis Lock"
+   },
+   {
+    "n": 3,
+    "dow": "Wed",
+    "from": "Oxford",
+    "to": "Kidlington",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Thu",
+    "from": "Kidlington",
+    "to": "Northbrook",
+    "miles": 6.5,
+    "locks": 6,
+    "hours": 3.37,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "dow": "Fri",
+    "from": "Northbrook",
+    "to": "Withybed Wharf",
+    "miles": 2.5,
+    "locks": 2,
+    "hours": 1.23,
+    "note": "Back by 09:30"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Northbrook",
+    "at": 2.5,
+    "kind": "village"
+   },
+   {
+    "name": "Kidlington",
+    "at": 9,
+    "kind": "village"
+   },
+   {
+    "name": "Duke's Cut",
+    "at": 10.5,
+    "kind": "junction",
+    "note": "Onto the Thames"
+   },
+   {
+    "name": "Oxford",
+    "at": 13.5,
+    "kind": "town",
+    "note": "Isis Lock and the canal terminus"
+   }
+  ]
+ },
+ {
+  "id": "oxford-and-back",
+  "name": "Oxford and back",
+  "type": "week",
+  "nights": 7,
+  "miles": 27,
+  "locks": 22,
+  "longest": 2.67,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "the canal runs straight into Oxford; the terminus takes 70 ft",
+  "summary": "Eleven locks and thirteen and a half miles south to the end of the canal, a full day tied up in Oxford, and the same eleven locks home.",
+  "best": "The week most people come for. Never more than three hours of cruising in a day.",
+  "photo": "lock-barge",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Enslow",
+    "miles": 5,
+    "locks": 5,
+    "hours": 2.67,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Enslow",
+    "to": "Kidlington",
+    "miles": 4,
+    "locks": 3,
+    "hours": 1.93,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "Kidlington",
+    "to": "Oxford",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Oxford",
+    "to": "Oxford",
+    "miles": 0,
+    "locks": 0,
+    "hours": 0,
+    "note": "A day in Oxford"
+   },
+   {
+    "n": 5,
+    "dow": "Tue",
+    "from": "Oxford",
+    "to": "Kidlington",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 6,
+    "dow": "Wed",
+    "from": "Kidlington",
+    "to": "Enslow",
+    "miles": 4,
+    "locks": 3,
+    "hours": 1.93,
+    "note": ""
+   },
+   {
+    "n": 7,
+    "dow": "Thu",
+    "from": "Enslow",
+    "to": "Northbrook",
+    "miles": 2.5,
+    "locks": 3,
+    "hours": 1.43,
+    "note": ""
+   },
+   {
+    "n": 8,
+    "dow": "Fri",
+    "from": "Northbrook",
+    "to": "Withybed Wharf",
+    "miles": 2.5,
+    "locks": 2,
+    "hours": 1.23,
+    "note": "Back by 09:30 on the Friday"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Enslow",
+    "at": 5,
+    "kind": "village"
+   },
+   {
+    "name": "Thrupp",
+    "at": 8.5,
+    "kind": "village"
+   },
+   {
+    "name": "Kidlington",
+    "at": 9,
+    "kind": "village"
+   },
+   {
+    "name": "Oxford",
+    "at": 13.5,
+    "kind": "town",
+    "note": "Isis Lock and the canal terminus"
+   }
+  ]
+ },
+ {
+  "id": "upper-thames-to-eynsham",
+  "name": "The upper Thames to Eynsham",
+  "type": "week",
+  "nights": 7,
+  "miles": 31,
+  "locks": 22,
+  "longest": 4.6,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "King's Lock and Eynsham Lock take far more than 70 ft",
+  "summary": "Down to Duke's Cut, out onto the Thames above Oxford, and up the river to Eynsham, where you tie up for two nights and do nothing.",
+  "best": "A week with a river in the middle of it. Wide water, long views, fewer locks.",
+  "photo": "thames-reach",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Kidlington",
+    "miles": 9,
+    "locks": 8,
+    "hours": 4.6,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Kidlington",
+    "to": "Eynsham",
+    "miles": 6.5,
+    "locks": 3,
+    "hours": 2.77,
+    "note": "Duke's Cut and onto the Thames"
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "Eynsham",
+    "to": "Eynsham",
+    "miles": 0,
+    "locks": 0,
+    "hours": 0,
+    "note": "A day tied up"
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Eynsham",
+    "to": "Kidlington",
+    "miles": 6.5,
+    "locks": 3,
+    "hours": 2.77,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "dow": "Tue",
+    "from": "Kidlington",
+    "to": "Enslow",
+    "miles": 4,
+    "locks": 3,
+    "hours": 1.93,
+    "note": ""
+   },
+   {
+    "n": 6,
+    "dow": "Wed",
+    "from": "Enslow",
+    "to": "Northbrook",
+    "miles": 2.5,
+    "locks": 3,
+    "hours": 1.43,
+    "note": ""
+   },
+   {
+    "n": 7,
+    "dow": "Thu",
+    "from": "Northbrook",
+    "to": "Northbrook",
+    "miles": 0,
+    "locks": 0,
+    "hours": 0,
+    "note": "A day tied up"
+   },
+   {
+    "n": 8,
+    "dow": "Fri",
+    "from": "Northbrook",
+    "to": "Withybed Wharf",
+    "miles": 2.5,
+    "locks": 2,
+    "hours": 1.23,
+    "note": "Back by 09:30 on the Friday"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Kidlington",
+    "at": 9,
+    "kind": "village"
+   },
+   {
+    "name": "Duke's Cut",
+    "at": 10.5,
+    "kind": "junction",
+    "note": "Onto the Thames"
+   },
+   {
+    "name": "King's Lock",
+    "at": 11,
+    "kind": "lock"
+   },
+   {
+    "name": "Eynsham",
+    "at": 15.5,
+    "kind": "village",
+    "note": "Overnight moorings above the lock"
+   }
+  ]
+ },
+ {
+  "id": "cropredy-and-claydon",
+  "name": "Cropredy and the Claydon flight",
+  "type": "week",
+  "nights": 7,
+  "miles": 46,
+  "locks": 38,
+  "longest": 5,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "turns at Cropredy, wide enough for 70 ft",
+  "summary": "Eighteen miles north to Cropredy, a day pushing up the five-lock Claydon flight and back, then the long way home through Banbury.",
+  "best": "Strong lock-workers who want a proper climb. Not the first week we would pick.",
+  "photo": "autumn-canal",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Aynho",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Aynho",
+    "to": "Banbury",
+    "miles": 9.5,
+    "locks": 4,
+    "hours": 3.97,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "Banbury",
+    "to": "Cropredy",
+    "miles": 4,
+    "locks": 4,
+    "hours": 2.13,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Cropredy",
+    "to": "Claydon top",
+    "miles": 5,
+    "locks": 8,
+    "hours": 3.27,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "dow": "Tue",
+    "from": "Claydon top",
+    "to": "Cropredy",
+    "miles": 5,
+    "locks": 8,
+    "hours": 3.27,
+    "note": ""
+   },
+   {
+    "n": 6,
+    "dow": "Wed",
+    "from": "Cropredy",
+    "to": "Banbury",
+    "miles": 4,
+    "locks": 4,
+    "hours": 2.13,
+    "note": ""
+   },
+   {
+    "n": 7,
+    "dow": "Thu",
+    "from": "Banbury",
+    "to": "Somerton",
+    "miles": 12,
+    "locks": 5,
+    "hours": 5,
+    "note": ""
+   },
+   {
+    "n": 8,
+    "dow": "Fri",
+    "from": "Somerton",
+    "to": "Withybed Wharf",
+    "miles": 2,
+    "locks": 2,
+    "hours": 1.07,
+    "note": "Back by 09:30 on the Friday"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Banbury",
+    "at": 14,
+    "kind": "town"
+   },
+   {
+    "name": "Cropredy",
+    "at": 18,
+    "kind": "village"
+   },
+   {
+    "name": "Claydon top lock",
+    "at": 23,
+    "kind": "lock",
+    "note": "Summit of the flight"
+   }
+  ]
+ },
+ {
+  "id": "napton-the-long-way-up",
+  "name": "Napton: the long way up",
+  "type": "week",
+  "nights": 7,
+  "miles": 70,
+  "locks": 56,
+  "longest": 5.8,
+  "maxLengthFt": 70,
+  "maxLengthWhy": "a through route with no tight turn, 70 ft is fine",
+  "summary": "Thirty-five miles and twenty-eight locks north to Napton Junction, where the Oxford Canal meets the Grand Union, and the same water home.",
+  "best": "Seventy miles and fifty-six locks in a week. Hard work, and the most countryside we offer.",
+  "photo": "sunny-reflections",
+  "suited": [
+   "dabchick",
+   "kingfisher",
+   "moorhen",
+   "reed-warbler",
+   "grey-heron",
+   "mute-swan"
+  ],
+  "days": [
+   {
+    "n": 1,
+    "dow": "Fri",
+    "from": "Withybed Wharf",
+    "to": "Aynho",
+    "miles": 4.5,
+    "locks": 3,
+    "hours": 2.1,
+    "note": ""
+   },
+   {
+    "n": 2,
+    "dow": "Sat",
+    "from": "Aynho",
+    "to": "Banbury",
+    "miles": 9.5,
+    "locks": 4,
+    "hours": 3.97,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "dow": "Sun",
+    "from": "Banbury",
+    "to": "Claydon top",
+    "miles": 9,
+    "locks": 12,
+    "hours": 5.4,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "dow": "Mon",
+    "from": "Claydon top",
+    "to": "Napton Junction",
+    "miles": 12,
+    "locks": 9,
+    "hours": 5.8,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "dow": "Tue",
+    "from": "Napton Junction",
+    "to": "Claydon top",
+    "miles": 12,
+    "locks": 9,
+    "hours": 5.8,
+    "note": "Turn at the junction"
+   },
+   {
+    "n": 6,
+    "dow": "Wed",
+    "from": "Claydon top",
+    "to": "Banbury",
+    "miles": 9,
+    "locks": 12,
+    "hours": 5.4,
+    "note": ""
+   },
+   {
+    "n": 7,
+    "dow": "Thu",
+    "from": "Banbury",
+    "to": "Somerton",
+    "miles": 12,
+    "locks": 5,
+    "hours": 5,
+    "note": ""
+   },
+   {
+    "n": 8,
+    "dow": "Fri",
+    "from": "Somerton",
+    "to": "Withybed Wharf",
+    "miles": 2,
+    "locks": 2,
+    "hours": 1.07,
+    "note": "Back by 09:30 on the Friday"
+   }
+  ],
+  "stops": [
+   {
+    "name": "Withybed Wharf",
+    "at": 0,
+    "kind": "base"
+   },
+   {
+    "name": "Banbury",
+    "at": 14,
+    "kind": "town"
+   },
+   {
+    "name": "Cropredy",
+    "at": 18,
+    "kind": "village"
+   },
+   {
+    "name": "Claydon top lock",
+    "at": 23,
+    "kind": "lock"
+   },
+   {
+    "name": "Napton Junction",
+    "at": 35,
+    "kind": "junction",
+    "note": "Meets the Grand Union"
+   }
+  ]
+ }
+]
