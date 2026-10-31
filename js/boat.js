@@ -1,4 +1,4 @@
-/* WITHYBED — one boat, drawn from data/fleet.json. The address is boat.html?b=<id>. */
+/* WITHYBED — one boat, drawn from data/fleet.json. The address is boat?b=<id>. */
 (function () {
   'use strict';
   var root = document.querySelector('[data-boat-root]');
@@ -15,7 +15,7 @@
     fleet.forEach(function (b, k) { if (b.id === id) i = k; });
     if (i < 0) {
       root.innerHTML = '<div class="bd__in"><div><h1><span class="h1-heavy">Which boat?</span></h1><p>There is no boat with that name. Pick one:</p><ul class="chips">' +
-        fleet.map(function (b) { return '<li><a href="boat.html?b=' + b.id + '">' + esc(b.name) + '<span>' + b.berths + ' berths · ' + b.lengthFt + ' ft</span></a></li>'; }).join('') + '</ul></div></div>';
+        fleet.map(function (b) { return '<li><a href="boat?b=' + b.id + '">' + esc(b.name) + '<span>' + b.berths + ' berths · ' + b.lengthFt + ' ft</span></a></li>'; }).join('') + '</ul></div></div>';
       document.title = 'Choose a boat · Withybed Narrowboats';
       return;
     }
@@ -42,15 +42,15 @@
             '<tr><th scope="row">Weekend, 3 nights</th><td>' + P('weekend', 'low') + '</td><td>' + P('weekend', 'high') + '</td></tr>' +
           '</tbody></table>' +
           '<p class="hint">Refundable damage deposit ' + WB.money(b.deposit) + ', taken at handover. High season is any hire with a night between ' + WB.fmtDate(site.seasons.highFrom, { noWeekday: true }) + ' and ' + WB.fmtDate(site.seasons.highTo, { noWeekday: true }) + '.</p>' +
-          '<p class="boat__act"><a class="btn" href="plan.html?boat=' + b.id + '">Price ' + esc(b.name) + '</a> <a class="lnk" href="boats.html">All boats</a></p>' +
+          '<p class="boat__act"><a class="btn" href="plan?boat=' + b.id + '">Price ' + esc(b.name) + '</a> <a class="lnk" href="boats">All boats</a></p>' +
           '<div class="bd__routes"><h2 class="rp__h">Routes she can do</h2><ul class="chips">' +
-            suited.map(function (r) { return '<li><a href="routes.html?route=' + r.id + '">' + esc(r.name) + '<span>' + site.durations[r.type].label + ' · ' + r.miles + ' miles · ' + r.locks + ' locks</span></a></li>'; }).join('') +
+            suited.map(function (r) { return '<li><a href="routes?route=' + r.id + '">' + esc(r.name) + '<span>' + site.durations[r.type].label + ' · ' + r.miles + ' miles · ' + r.locks + ' locks</span></a></li>'; }).join('') +
           '</ul>' + (b.lengthFt > 60 ? '<p class="hint">At ' + b.lengthFt + ' ft she is too long to turn at Twyford Wharf, so the shorter northern routes are not hers.</p>' : '') + '</div>' +
-          '<nav class="boat__act" aria-label="Other boats"><a class="lnk" href="boat.html?b=' + prev.id + '"><span aria-hidden="true">←&nbsp;</span>' + esc(prev.name) + '</a> <a class="lnk" href="boat.html?b=' + next.id + '">' + esc(next.name) + '<span aria-hidden="true">&nbsp;→</span></a></nav>' +
+          '<nav class="boat__act" aria-label="Other boats"><a class="lnk" href="boat?b=' + prev.id + '"><span aria-hidden="true">←&nbsp;</span>' + esc(prev.name) + '</a> <a class="lnk" href="boat?b=' + next.id + '">' + esc(next.name) + '<span aria-hidden="true">&nbsp;→</span></a></nav>' +
         '</div>' +
       '</div>';
     root.querySelector('.bd__photo').classList.add('rv', 'in');
   }).catch(function () {
-    root.innerHTML = '<p class="bd__load">The boat data did not load. The <a href="boats.html">boats page</a> has every boat and every price.</p>';
+    root.innerHTML = '<p class="bd__load">The boat data did not load. The <a href="boats">boats page</a> has every boat and every price.</p>';
   });
 })();

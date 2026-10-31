@@ -21,7 +21,7 @@ const ORIGIN = process.env.BASE_URL || 'https://hire-withybed.pages.dev/';
 const PAGES = ['index.html', 'boats.html', 'boat.html', 'routes.html', 'plan.html', 'gallery.html'];
 const res = [];
 const ok = (name, c, extra = '') => res.push([!!c, name + (extra ? ' - ' + extra : '')]);
-const urlFor = (f) => (f === 'index.html' ? ORIGIN : ORIGIN + f);
+const urlFor = (f) => (f === 'index.html' ? ORIGIN : ORIGIN + f.replace(/\.html$/, ''));
 const site = JSON.parse(read('data/site.json'));
 const fleet = JSON.parse(read('data/fleet.json'));
 const routes = JSON.parse(read('data/routes.json'));
@@ -69,8 +69,11 @@ for (const f of PAGES) {
   for (const m of body.matchAll(/(?:srcset|imagesrcset)="([^"]+)"/g)) for (const p of m[1].split(',')) refs.add(p.trim().split(/\s+/)[0]);
   const missing = [...refs].filter((r) => !exists(r));
   ok(`${f}: every referenced file exists`, missing.length === 0, `${refs.size} refs ${missing.slice(0, 3).join(' ')}`);
-  const links = [...body.matchAll(/<a [^>]*href="([^"#?]+\.html)(?:[?#][^"]*)?"/g)].map((m) => m[1]);
-  ok(`${f}: internal page links resolve`, links.every((l) => PAGES.includes(l)), [...new Set(links.filter((l) => !PAGES.includes(l)))].join(' '));
+  // internal page links use the clean addresses (/boats, ./), which is what Cloudflare Pages serves
+  const links = [...body.matchAll(/<a [^>]*href="([^"#?:]+)(?:[?#][^"]*)?"/g)].map((m) => m[1]);
+  const asFile = (l) => (l === './' ? 'index.html' : l + '.html');
+  ok(`${f}: internal page links resolve`, links.every((l) => PAGES.includes(asFile(l))), [...new Set(links.filter((l) => !PAGES.includes(asFile(l))))].join(' '));
+  ok(`${f}: no internal link still ends in .html`, !/<a [^>]*href="[a-z]+\.html/.test(body));
   // the stylesheet and scripts carry a hash of their content
   for (const m of html.matchAll(/(?:href|src)="((?:css|js)\/[^"?]+)\?v=([0-9a-f]+)"/g)) ok(`${f}: ${m[1]} hash is current`, m[2] === hashOf(m[1]));
   ok(`${f}: year is 2026`, /© 2026 /.test(html));

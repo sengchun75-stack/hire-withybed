@@ -7,10 +7,22 @@
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
 
-/*.html
+/
   Cache-Control: no-cache
 
-/
+/boats
+  Cache-Control: no-cache
+
+/boat
+  Cache-Control: no-cache
+
+/routes
+  Cache-Control: no-cache
+
+/plan
+  Cache-Control: no-cache
+
+/gallery
   Cache-Control: no-cache
 
 /css/*
